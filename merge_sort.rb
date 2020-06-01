@@ -2,7 +2,6 @@ arr=[]
 test_file=File.open("test.txt", "r")
 test_file.readlines.each {|a| arr.push(a.to_i)}
 
-end
 def divide(arr)
   if arr.length==1
     return arr
